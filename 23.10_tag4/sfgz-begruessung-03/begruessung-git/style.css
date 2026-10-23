@@ -1,0 +1,37 @@
+/* ===== 1 · Body, Seitenkopf, Seitenende: header, h1, footer ===== */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+footer{
+    position: fixed;
+    bottom:0px;
+    padding-bottom: 1rem;;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+/* ===== Annas Abschnitt lol ===== */
+.gruss:lang(ru) {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    color: #c30c0c;
+}
+
+.gruss:lang(sr){
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    color: #076399;
+}
+
+.gruss:lang(uk){
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    color: #0c9c3c;
+}
+
+/* ===== 2 · Liste: .liste ===== */
+
+/* ===== 3 · Eintrag: .gruss, .wort, .info, .notiz, .von ===== */
+
+/* ===== 4 · Sprachen und Schriften: :lang(), [dir="rtl"] ===== */

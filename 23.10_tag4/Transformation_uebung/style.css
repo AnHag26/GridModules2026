@@ -1,0 +1,78 @@
+.group {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+/* beide Elemente liegen ursprünglich übereinander */
+.not_transformed,
+.transformed {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  height: 300px;
+  width: 300px;
+}
+
+/* zur visuellen Unterscheidung zwei unterschiedliche Stile zuweisen */
+.not_transformed {
+  background-color: black;
+}
+
+.transformed {
+  background-color: rgba(66, 66, 186, 0.5);
+  color: white;
+  font-size: 40px;
+  text-align: center;
+   transition: transform 1s ease-in-out;
+   font-size: 20px;
+font-family:monospace;
+padding: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+section.versuch{
+    margin:20px;
+}
+
+h1{
+font-size: 20px;
+font-family:monospace;
+text-align: center;
+}
+
+/* neue Klasse */
+.verschoben:hover {
+  transform: translate(100px, 200px);
+}
+
+.rotieren:hover {
+  transform: rotate(45deg);
+}
+
+.alles{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100vw;
+    height: auto;
+}
+
+.kleiner:hover {
+    transform: scale(0.5);
+}
+
+.verzerren:hover {
+    transform: skew(20deg, 20deg);
+}
+
+.misch_one:hover {
+    transform: scale(0.5) rotate(45deg);
+}
+
+.misch_two:hover {
+    transform: translate(100px, 200px) skew(20deg, 20deg);
+}
