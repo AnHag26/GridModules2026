@@ -1,0 +1,147 @@
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+    font-family: "Roboto Mono", monospace ;
+     cursor: url("zauber.png")10 10, auto;
+     height: 100vh;
+     width: 100vw;
+     overflow-y: hidden;
+     background-color: antiquewhite;
+}
+
+
+h1{
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 1.5rem;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+.meine_liste{
+    overflow-x: scroll;
+    height: 80vh;
+    background-color: antiquewhite;
+}
+
+ul{
+    list-style: none;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+li{
+    width: auto;
+    margin-top: 3rem;
+    font-size: 5rem;
+}
+
+.liste_box_hinten{
+    font-weight:lighter;
+}
+
+.liste_box_vorne{
+    font-weight:bold;
+}
+
+.buchstabe_a{
+color: rgb(176, 115, 233);
+}
+
+.buchstabe_b{
+    color: rgb(120, 120, 238);
+}
+
+.buchstabe_c{
+    color: rgb(152, 192, 178);
+}
+
+.buchstabe_d{
+    color: rgb(209, 152, 73);
+}
+
+.buchstabe_e{
+    color: rgb(209, 73, 141);
+}
+
+.buchstabe_f{
+    color: rgb(96, 100, 125);
+}
+
+.buchstabe_g{
+    color: rgb(126, 4, 98);
+}
+
+.buchstabe_h{
+    color: rgb(78, 116, 58);
+}
+
+.buchstabe_i{
+    color: rgb(233, 146, 75);
+}
+
+.buchstabe_j{
+    color: rgb(70, 48, 83);
+}
+
+.buchstabe_k{
+    color: rgb(162, 104, 206);
+}
+
+.buchstabe_l{
+    color: rgb(110, 93, 157);
+}
+
+.buchstabe_m{
+    color: rgb(166, 205, 204);
+}
+
+.buchstabe_n{
+    color: rgb(150, 123, 13);
+}
+
+.buchstabe_o{
+    color: rgb(29, 10, 13);
+}
+
+.buchstabe_p{
+    color: rgb(21, 85, 103);
+}
+
+.buchstabe_r{
+    color: rgb(200, 137, 105);
+}
+
+.buchstabe_s{
+    color: rgb(52, 77, 28);
+}
+
+.buchstabe_t{
+    color: rgb(81, 28, 35);
+}
+
+.buchstabe_u{
+    color: rgb(226, 121, 210);
+}
+
+.buchstabe_v{
+    color: rgb(55, 30, 47);
+}
+
+.buchstabe_w{
+    color: rgb(34, 26, 66);
+}
+
+.buchstabe_x{
+    color: rgb(7, 70, 125);
+}
+
+.buchstabe_y{
+    color: rgb(60, 143, 113);
+}
+
+.buchstabe_z{
+    color: rgb(122, 187, 86);
+}

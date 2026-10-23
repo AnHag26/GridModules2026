@@ -1,0 +1,73 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    font-family: 'Montserrat', sans-serif;
+    cursor: url("hä.png")10 10, auto;
+    background: linear-gradient(110deg, #25D366 0%, #128C7E 50%, #005C4B 100%);
+}
+
+h1 {
+    font-size: 2.3rem;
+    color: #ffffff;
+}
+
+.titel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meine_liste {
+    width: 100vw;
+    height: auto;
+    overflow-x: hidden;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+li {
+    width: 10rem;
+    height: 10rem;
+    background: #f1f2f6;
+    padding: 1.5rem;
+    margin: 2rem;
+    border-radius: 8px;
+    border-left: 5px solid #68c0f3;
+    border-top: 5px solid #68c0f3;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transition: transform 0.4s ease-in-out;
+    text-align: center;
+}
+
+li:hover {
+    transform: translateY(-20px);
+    transform: scale(1.2);
+    box-shadow: 0 25px 35px rgba(0, 0, 0, 0.18);
+}
+
+.buchstabe_a {}
+
+.liste_box_vorne {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #005C4B;
+}
+
+.liste_box_hinten {
+    font-size: 1.5rem;
+    width: 10rem;
+    height: 7rem;
+    text-align: center;
+    opacity: 0;
+    padding-top: 10%;
+    font-style: oblique;
+}
+
+.liste_box_hinten:hover {
+    opacity: 1;
+    cursor: url("huhu.png")10 10, auto;
+}
