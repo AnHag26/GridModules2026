@@ -1,0 +1,144 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    cursor:url("cat1.png")10 10, auto;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(Desktop\ Wallpaper.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+    
+
+.todo{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.todo_titel{
+    width: auto;
+    height: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgba(248, 241, 246, 0.5);
+}
+
+.titel{
+    font-size: 2rem;
+}
+
+.anna{
+    font-size: 1rem;
+}
+
+.todo_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.todo_privat, .todo_schule, .todo_arbeit{
+    width: 25rem;
+    height: 40rem;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    font-size:1.6rem
+}
+
+.todo_privat{
+    margin-right: 20px;
+    background-color: rgb(242, 251, 233);
+}
+
+.todo_schule{
+    margin-right: 20px;
+    background-color: rgb(233, 255, 255);
+}
+
+.todo_arbeit{
+    margin-right: 20px;
+    background-color: rgb(248, 233, 255);
+}
+
+.prio_high{
+    font-size: 1.2rem;
+    color: red;
+}
+
+.prio_medium{
+    font-size: 1.2rem;
+    color: orange;
+}
+
+.prio_low{
+    font-size: 1.2rem;
+    color: green;
+}
+
+.todo_item{
+    transition: text-decoration 0.2s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.todo_item:hover{
+    text-decoration: line-through;
+    transform: scale(1.2);
+}
+
+.button{
+    width: auto;
+    height: auto;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    background-color: rgb(216, 216, 216);
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 20px;
+    transition:transform 0.3s ease-in-out;
+}
+
+.button:hover{
+    background-color: rgb(200, 200, 200);
+    transform: scale(1.1);
+}
+
+.cando{
+    background-image: url("cando.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    width: 280px;
+    height: 100px;;
+    position: absolute;
+    top: 70px;
+    right: 100px;
+}
+
+.titel{
+    font-size: 1.5rem;
+}
