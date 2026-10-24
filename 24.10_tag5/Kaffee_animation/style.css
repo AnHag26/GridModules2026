@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+
+@keyframes delay {
+  from {
+   opacity: 0;
+  }
+
+  to {
+   opacity: 1;
+  }
+}
+
+@keyframes auseinander{
+    from {
+        letter-spacing: 20px;
+    }   
+    to {
+        letter-spacing: 50px;
+    }
+
+}
+
+body {
+  font-family: 'DM Serif Display', serif;
+  text-align: center;
+}
+
+.hintergrund {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  background-color: #3b2418;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+h1.morning{
+    font-size: 5rem;
+    color: #835b2b;
+   animation-name: delay;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.need{
+     font-size: 5rem;
+    color: #835b2b;
+   animation-name: delay;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+h1.morning:hover{
+  
+}
+
+h1.coffee{
+    font-size: 10rem;
+    letter-spacing: 20px;
+    color: #835b2b;
+    opacity: 1;
+  text-shadow: -2px -2px 0 #000, 4px -4px 0 #000, -2px 2px 0 #000, 4px 4px 0 #000;
+    animation-name: delay;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+   transition: letter-spacing 2s ease-out;
+}
+
+h1.coffee:hover{
+    letter-spacing: 80px;
+     text-shadow: -2px -2px 0 #654620, 4px -4px 0 #654620, -2px 2px 0 #654620, 4px 4px 0 #654620;
+}
+
+.blob {
+  position: absolute;
+  width: 70vmax;
+  height: 70vmax;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.8;
+  animation-name: wirbeln;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+.milch {
+  background: radial-gradient(circle, #f5e9d6, transparent 70%);
+  top: -20%;
+  left: -10%;
+  animation-duration: 3s;
+}
+
+.latte {
+  background: radial-gradient(circle, #c69c6d, transparent 70%);
+  bottom: -25%;
+  right: -15%;
+  animation-duration: 10s;
+  animation-delay: -5s;
+}
+
+.karamell {
+  background: radial-gradient(circle, #8b5a2b, transparent 70%);
+  top: 20%;
+  right: 10%;
+  animation-duration: 6s;
+  animation-delay: -10s;
+}
+
+.creme {
+  background: radial-gradient(circle, #e7d2a7, transparent 70%);
+  bottom: -10%;
+  left: 15%;
+  animation-duration: 6s;
+  animation-delay: -15s;
+}
+
+@keyframes wirbeln {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translate(15vw, 10vh) rotate(120deg) scale(1.2);
+  }
+  100% {
+    transform: translate(-10vw, 20vh) rotate(240deg) scale(0.9);
+  }
+}
