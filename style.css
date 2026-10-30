@@ -7,35 +7,102 @@ body {
     color: #c2b2fc;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 100vw;
+    justify-content: start;
+    align-items: start;
+    height: auto;
+    width: 90vw;
+    padding: 2rem;
 }
 
 a {
     color: #c2b2fc;
     text-decoration: none;
-    font-weight: normal;
+    font-weight: 300;
     font-size: 1.2rem;
-    padding: 0.5rem 1rem;
+    padding: 1rem 1.5rem;
     transition: all 0.3s ease-in-out;
+    border: 2px solid #c2b2fc;
+    border-radius: 20px;
 }
 
 a:hover {
     text-decoration: underline;
     font-weight: bold;
-    font-size: 1.3rem;
+    color: #fff;
 }
 
 section.uebungen {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     gap: 1rem;
+    width: 45%;
 }
 
 .header{
     margin-bottom: 2rem;
+}
+
+h1{
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+
+.blob {
+  position: absolute;
+  width: 70vmax;
+  height: 70vmax;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.8;
+  animation-name: wirbeln;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  z-index: -1;
+}
+
+.one {
+  background: radial-gradient(circle, #333a50, transparent 70%);
+  top: -20%;
+  left: -10%;
+  animation-duration: 6s;
+}
+
+.two {
+  background: radial-gradient(circle,#4c2f97, transparent 70%);
+  bottom: -25%;
+  right: -15%;
+  animation-duration: 13s;
+  animation-delay: -5s;
+}
+
+.three {
+  background: radial-gradient(circle,#064e9b, transparent 70%);
+  top: 20%;
+  right: 10%;
+  animation-duration: 11s;
+  animation-delay: -10s;
+}
+
+.four {
+  background: radial-gradient(circle, #352953, transparent 70%);
+  bottom: -10%;
+  left: 15%;
+  animation-duration: 6s;
+  animation-delay: -15s;
+}
+
+@keyframes wirbeln {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translate(15vw, 10vh) rotate(120deg) scale(1.2);
+  }
+  100% {
+    transform: translate(-10vw, 20vh) rotate(240deg) scale(0.9);
+  }
 }
