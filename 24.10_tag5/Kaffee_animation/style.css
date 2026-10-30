@@ -105,14 +105,14 @@ h1.coffee:hover{
   background: radial-gradient(circle, #f5e9d6, transparent 70%);
   top: -20%;
   left: -10%;
-  animation-duration: 3s;
+  animation-duration: 6s;
 }
 
 .latte {
   background: radial-gradient(circle, #c69c6d, transparent 70%);
   bottom: -25%;
   right: -15%;
-  animation-duration: 10s;
+  animation-duration: 13s;
   animation-delay: -5s;
 }
 
@@ -120,7 +120,7 @@ h1.coffee:hover{
   background: radial-gradient(circle, #8b5a2b, transparent 70%);
   top: 20%;
   right: 10%;
-  animation-duration: 6s;
+  animation-duration: 11s;
   animation-delay: -10s;
 }
 
