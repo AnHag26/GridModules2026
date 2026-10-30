@@ -26,8 +26,8 @@
 body {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
-    background-color: #0d002f;
-    color: #c2b2fc;
+    background-color:#443636;
+    color:#e9e3e3;
     height: auto;
     width: 90vw;
     padding: 2rem;
@@ -128,7 +128,7 @@ section.text {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 200;
-    color: #c2b2fc;
+    color: #e9e3e3;
 }
 
 .yt:hover{
