@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+@keyframes delay {
+  from {
+   opacity: 0;
+  }
+
+  to {
+   opacity: 1;
+  }
+}
+
+@keyframes hide {
+from {
+    opacity: 1;
+}
+
+to {
+    opacity: 0;
+}
+}
+
+
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-color: #0d002f;
+    color: #c2b2fc; 
+    height: auto;
+    width: 90vw;
+    padding: 2rem;
+}
+
+section.text{
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-name: hide;
+    animation-duration: 1s;
+    animation-delay: 15s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+
+
+}
+
+.lyrics{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    animation-name: delay;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    padding: 10px;
+}
+
+.lyrics:nth-child(1){
+    animation-delay: 1.5s;
+}
+
+.lyrics:nth-child(2){
+    animation-delay: 3s;
+}
+
+.lyrics:nth-child(3){
+    animation-delay: 4.5s;
+}
+
+.lyrics:nth-child(4){
+    animation-delay: 6s;
+}
+
+.lyrics:nth-child(5){
+    animation-delay: 7.5s;
+}
+
+.lyrics:nth-child(6){
+    animation-delay: 9s;
+}
+
+.lyrics:nth-child(7){
+    animation-delay: 10.5s;
+}
+
+.lyrics:nth-child(8){
+    animation-delay: 12s;
+}
+
+.song{
+    position: absolute;
+    top: 0;
+}
+
+.bild{
+    width: 300px;
+    height: 300px;
+    background-image:url(image.jpg);
+    background-position: center;
+    background-size: contain;
+    padding: 20px;
+}
+
+.name{
+    padding: 5px;
+}
+
+.band{
+    padding: 5px;
+}
