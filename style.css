@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     background-color: #0d002f;
-    color: #b8a8f4;
+    color: #c2b2fc;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,11 +14,12 @@ body {
 }
 
 a {
-    color: #b8a8f4;
+    color: #c2b2fc;
     text-decoration: none;
     font-weight: normal;
     font-size: 1.2rem;
     padding: 0.5rem 1rem;
+    transition: all 0.3s ease-in-out;
 }
 
 a:hover {
