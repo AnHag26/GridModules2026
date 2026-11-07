@@ -16,6 +16,7 @@ body {
 
 a {
     color: #c2b2fc;
+    width: 100%;
     text-decoration: none;
     font-weight: 300;
     font-size: 1.2rem;
@@ -32,6 +33,22 @@ a:hover {
 }
 
 section.uebungen {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: start;
+}
+
+.eins {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+    width: 45%;
+}
+
+.zwei {
     display: flex;
     flex-direction: column;
     justify-content: start;
