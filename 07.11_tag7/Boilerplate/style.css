@@ -1,0 +1,14 @@
+/* Zeilen, die noch warten, sind versteckt */
+#wartet {
+  display: none;
+}
+
+/* Der Button atmet */
+#knopf {
+  animation: atmen 3s ease-in-out infinite;
+}
+
+@keyframes atmen {
+  0%, 100% { transform: scale(1); }
+  50%      { transform: scale(1.1); }
+}
